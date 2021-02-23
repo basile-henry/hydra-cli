@@ -23,5 +23,6 @@ pub fn jobset_config() -> JobsetConfig {
             map.insert("src".to_string(), input);
             map
         },
+        r#type: 0,
     }
 }

@@ -142,6 +142,7 @@ pub struct JobsetConfig {
     pub nixexprinput: String,
     pub nixexprpath: String,
     pub inputs: HashMap<String, Input>,
+    pub r#type: i64,
 }
 
 #[derive(Serialize, Deserialize, Debug)]
